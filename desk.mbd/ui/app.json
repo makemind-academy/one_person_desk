@@ -1,0 +1,71 @@
+{
+  "type": "application",
+  "title": "One-person desk",
+  "version": "1.0.0",
+  "initialRoute": "/",
+  "routes": {
+    "/": "ui://pages/desk"
+  },
+  "theme": {
+    "mode": "light",
+    "color": {
+      "primary": "#0d7f6f",
+      "onPrimary": "#ffffff",
+      "primaryContainer": "#d6f0eb",
+      "onPrimaryContainer": "#04322b",
+      "surface": "#ffffff",
+      "onSurface": "#111a19",
+      "surfaceContainerHighest": "#f2f6f5",
+      "onSurfaceVariant": "#7d8a88",
+      "outline": "#e0e9e7",
+      "outlineVariant": "#e0e9e7",
+      "error": "#b3261e",
+      "onError": "#ffffff",
+      "warning": "#a4620a",
+      "onWarning": "#ffffff",
+      "inverseSurface": "#111a19",
+      "inverseOnSurface": "#ffffff"
+    },
+    "spacing": {
+      "xxs": 2,
+      "xs": 4,
+      "sm": 8,
+      "md": 16,
+      "lg": 24,
+      "xl": 32,
+      "2xl": 48
+    },
+    "shape": {
+      "none": 0,
+      "extraSmall": 4,
+      "small": 8,
+      "medium": 12,
+      "large": 16,
+      "extraLarge": 28,
+      "full": 999
+    },
+    "fonts": {
+      "JetBrainsMono": {
+        "source": "asset",
+        "family": "JetBrainsMono"
+      }
+    }
+  },
+  "state": {
+    "initial": {
+      "rows": [],
+      "rowCount": 0,
+      "late": 0,
+      "hats": "",
+      "hatCount": 0,
+      "atStake": "",
+      "rule": "",
+      "headline": ""
+    }
+  },
+  "onInit": {
+    "type": "tool",
+    "tool": "desk.all",
+    "params": {}
+  }
+}
